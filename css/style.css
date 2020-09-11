@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+
+body {
+    background: url(../wallpaper.jpg) no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+}
+
+.logo img {
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.main {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+
+.title {
+    position: absolute;
+    top: 62%;
+    left: 1.5%;
+}
+
+.title h1 {
+    color: #00FFFF;
+}
+
+.title2 {
+    position: absolute;
+    top: 1%;
+    left: 26%;
+    font-size: 32px;
+}
+
+.title2 h1 {
+    color: #33ccff;
+}
+
+.para {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+    right: 15%;
+    font-size: 25px;
+}
+
+.para p {
+    color: #ffffff;
+}
+
+.button {
+    position: absolute;
+    top: 59%;
+    left: 30%;
+    font-size: 32px;
+}
+
+.btn {
+    color: #ff0000;
+    padding: 15px 32px;
+    background-color: #660066;
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button2 {
+    position: absolute;
+    top: 59%;
+    left: 55%;
+    font-size: 32px;
+}
+
+.btn1 {
+    color: #ff0000;
+    padding: 15px 32px;
+    background-color: #660066;
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button3 {
+    position: absolute;
+    top: 73%;
+    left: 38%;
+    font-size: 32px;
+}
+
+.btn2 {
+    color: #ff0000;
+    padding: 15px 32px;
+    background-color: #660066;
+    border-radius: 50%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.title6 {
+    position: absolute;
+    top: 70%;
+    left: 1.5%;
+}
+
+.title6 h1 {
+    color: #00FFFF;
+}
+
+.con {
+    display: none;
+}
+
+@media (max-width:500px) {
+    #box2 {
+        display: block;
+    }
+    .btn3 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 10px 20px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .btn4 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 10px 20px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .btn5 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 10px 20px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .ht1 {
+        margin-left: 2em;
+    }
+    .ht2 {
+        margin-left: 1em;
+    }
+    .para1 {
+        color: #ffffff;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .title21 {
+        text-align: center;
+        color: #33ccff;
+        font-size: 20px;
+    }
+    .main1 {
+        font-size: 13px;
+        color: #33ccff;
+    }
+    .b {
+        margin: 30px 0px;
+        margin-left: 4em;
+    }
+    .logo1 img {
+        width: 280px;
+        height: 300px;
+        margin: 3em;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:501px) and (max-width:1300px) {
+    #box2 {
+        display: block;
+    }
+    .btn3 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 15px 32px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .btn4 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 15px 32px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .btn5 {
+        font-size: 20px;
+        color: #ff0000;
+        padding: 15px 32px;
+        background-color: #660066;
+        border-radius: 50%;
+        text-decoration: none;
+    }
+    .ht1 {
+        margin: 0em 3em;
+    }
+    .ht2 {
+        margin: 0em 2em;
+    }
+    .para1 {
+        font-size: 32px;
+        color: #ffffff;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .title21 {
+        text-align: center;
+        color: #33ccff;
+        font-size: 32px;
+    }
+    .main1 {
+        font-size: 25px;
+        color: #33ccff;
+    }
+    .b {
+        margin: 30px 0px;
+        margin-left: 4em;
+        display: inline-block;
+    }
+    .logo1 img {
+        width: 280px;
+        height: 300px;
+        margin: 0 11em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+        border-radius: 50%;
+    }
+}
+
+@media (min-width:1301px) {
+    #box1 {
+        display: block;
+    }
+}
